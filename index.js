@@ -10,6 +10,10 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 })
 
+app.get("/styles.css", function(req, res) {
+  res.sendFile(__dirname + "/styles.css");
+});
+
 
 
 app.post("/", function(req, res) {

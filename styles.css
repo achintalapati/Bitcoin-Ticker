@@ -1,0 +1,19 @@
+body {
+  background-color: #00beed;
+}
+
+form {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.quantity {
+  margin: 2% 5%;
+}
+
+.selector {
+  margin: 2% 2%;
+}
